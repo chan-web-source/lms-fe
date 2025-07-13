@@ -1,0 +1,13 @@
+[Unit]
+Description=Frontend service for LMS app
+
+[Service]
+ExecStart=/usr/bin/npm start 
+WorkingDirectory=/usr/local/lms-fe
+Restart=on-failure
+RestartSec=5
+User=lms-fe
+EnvironmentFile=/etc/lms/fe.env
+
+[Install]
+WantedBy=multi-user.target

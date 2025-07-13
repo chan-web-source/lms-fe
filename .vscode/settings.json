@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll.prettier": "always",
+    "source.fixAll.stylelint": "always"
+  },
+  "cSpell.words": ["debaunce", "initialfilter", "logfilters"]
+}
